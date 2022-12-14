@@ -1,11 +1,51 @@
-* {
+/* * {
   border: black solid 2px;
+} */
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-.user-nav{
-
+nav {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.cards-section{
-  
+.nav-display {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
+
+.nav-img {
+  height: 7vh;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-buttons {
+  height: 8vh;
+  width: 20vw;
+}
+
+.header-img {
+  height: 25vh;
+  width: 12vw;
+} 
+
+.admin-button {
+  height: 8vh;
+  width: 20vw;
+}
+
+.cards-section {
+  height: 75vh;
+  width: 100vw;
+  display: grid;
+}
+
+
