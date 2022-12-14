@@ -70,7 +70,7 @@ nav {
   align-items: flex-start;
   justify-content: center;
   color: #fdfaf1;
-  padding-left: 30px;
+  padding-left: 35px;
   height: 15vh;
 
 }
@@ -104,9 +104,25 @@ h4 {
   /* contain: background-image; */
 
 }
-.card-share {
-  height 10vh;
+
+.views {
+  margin: 20px;
+  background-color: #fdfaf1;
+  text-align: center;
 }
+
+.view-count {
+  font-size: 26px;
+}
+
+.card-share {
+  height: 75px;
+  width: 75px;
+  border-radius: 46px;
+  background-color: #fdfaf1;
+  margin: 10px;
+}
+
 .card-img {
   height: 6vh;
 }
@@ -118,6 +134,7 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .link {
   background-color: #295f48;
   color: #fdfaf1;
