@@ -1,7 +1,10 @@
-/* * {
-  border: black solid 2px;
-} */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 body {
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -10,6 +13,7 @@ nav {
   height: 25vh;
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .nav-display {
@@ -22,11 +26,13 @@ nav {
 .nav-img {
   height: 7vh;
 }
+
 .admin {
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
+
 .heading {
   display: flex;
   flex-direction: row;
@@ -49,9 +55,56 @@ nav {
 }
 
 .cards-section {
-  height: 75vh;
   width: 100vw;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.remedies {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.cards-grid {
+  height: 110vh;
+  width: 98vw;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  border: 1px black solid;
+  height: 100%;
+  width: 98%;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 45%;
+  background-size: cover;
+  /* contain: background-image; */
+
+}
+.card-share {
+  height 10vh;
+}
+.card-img {
+  height: 6vh;
+}
+
+.card-body {
+  padding: 20px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
