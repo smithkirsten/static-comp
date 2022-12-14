@@ -91,7 +91,9 @@ nav {
   width: 98%;
   background-color: #fdfaf1;
 }
-
+h4 {
+  font-size: 12px;
+}
 .card-header {
   display: flex;
   flex-direction: row;
@@ -115,5 +117,14 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.link {
+  background-color: #295f48;
+  color: #fdfaf1;
+  text-align: center;
+}
+
+.attachment-count {
+  font-size: 26px;
 }
 
