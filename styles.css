@@ -47,6 +47,12 @@ h1 {
   font-size:18px;
 }
 
+.admin-button:hover {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 .heading {
   display: flex;
   flex-direction: row;
@@ -59,6 +65,11 @@ h1 {
   font-size: 23px;
   background-color: #18392b;
   color:#fdfaf1;
+}
+
+.nav-buttons:hover {
+  border-bottom: 3px #fdfaf1 solid;
+  cursor: pointer;
 }
 
 .header-img {
