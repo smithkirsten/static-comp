@@ -113,15 +113,15 @@ h1 {
 }
 
 .card {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   height: 100%;
   width: 98%;
   background-color: #fdfaf1;
 }
 
 .card:hover {
-  box-shadow: 2px 12px 15px black;
-  border: 3px #18392b solid;
+  box-shadow: 4px 10px 10px black;
+  border: 3px #fdfaf1 solid;
 }
 
 h4 {
@@ -175,7 +175,7 @@ h4 {
 }
 
 .link {
-  background-color: #295f48;
+  background-color: rgb(24, 57, 43, .8);
   color: #fdfaf1;
   text-align: center;
 }
@@ -183,6 +183,7 @@ h4 {
 .link:hover {
   cursor: pointer;
   font-weight: bolder;
+  background-color: #295f48;
 }
 
 .attachment-count {
