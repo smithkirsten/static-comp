@@ -17,10 +17,10 @@ This app would allow users to share their recipes for their favorite home herbal
 
 ### Future Features: 
 If I were to build out the functionality of this app, the future features I imagine would include: 
-* User-made project cards, where users can document particular remedies. Each card would include: recipe source, recipe notes (to not variations from original recipes, successes or, photos, ingredients list, warnings associated with any ingredients
+* User-made project cards, where users can document particular remedies. Each card would include: recipe source, recipe notes (to include variations from original recipes, suggestions for improvement, photos, ingredients list, warnings associated with any ingredients
 * Remedy cards that contain recipes and instructions for particular remedies. These are created by individual users and can be shared between users. Users would be able to save these recipes for future use and a button on the card would allow a user to create a project card that links back to the original recipe. Recipe cards would track numbers of shares and views from other users.
 * The ability to hide recipes behind a paywall or make them open source
-* An dashboard to view saved recipe cards from other users for future reference
+* A dashboard to view saved recipe cards from other users for future reference
 * A dashboard to view a user's personal projects
 * An apothecary page where users can keep track of the herbs they have access to in their home apothecaries. Clicking an herb will bring users to a page that suggests recipes they have saved that include that herb in their ingredients list.
 
