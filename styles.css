@@ -19,21 +19,32 @@ nav {
   color: #fdfaf1;
 }
 
+h1 {
+  font-size: 42px;
+}
+
 .nav-display {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+
 }
 
 .nav-img {
-  height: 7vh;
+  height: 3vh;
 }
 
 .admin {
   display: flex;
   flex-direction: row;
   justify-content: end;
+}
+
+.admin-button {
+  background-color: #18392b;
+  color:#fdfaf1;
+  font-size:18px;
 }
 
 .heading {
@@ -44,17 +55,20 @@ nav {
 
 .nav-buttons {
   height: 8vh;
-  width: 20vw;
+  width: 15vw;
+  font-size: 23px;
+  background-color: #18392b;
+  color:#fdfaf1;
 }
 
 .header-img {
-  height: 16vh;
-  width: 7vw;
+  height: 11vh;
+  width: 5vw;
 } 
 
 .admin-button {
   height: 8vh;
-  width: 20vw;
+  width: 12vw;
 }
 
 .cards-section {
@@ -72,13 +86,15 @@ nav {
   color: #fdfaf1;
   padding-left: 35px;
   height: 15vh;
-
+  width: 95vw;
+  font-size: 24px;
+  margin-left: -60px;
 }
 
 .cards-grid {
   height: 110vh;
   width: 98vw;
-  margin: 2px;
+  margin: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -109,6 +125,7 @@ h4 {
   margin: 20px;
   background-color: #fdfaf1;
   text-align: center;
+  padding: 2px;
 }
 
 .view-count {
